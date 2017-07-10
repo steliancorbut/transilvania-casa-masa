@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="ro" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="ro" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="ro"> <!--<![endif]-->
+<head>
+	<title>Pensiunea Transilvania casa si masa</title>
+
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<!-- Web Fonts -->
+	<link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin'>
+
+	<!-- CSS Global Compulsory -->
+	<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<!-- CSS Header and Footer -->
+	<link rel="stylesheet" href="assets/css/headers/header-default.css">
+	<link rel="stylesheet" href="assets/css/footers/footer-v1.css">
+
+	<!-- CSS Implementing Plugins -->
+	<link rel="stylesheet" href="assets/plugins/animate.css">
+	<link rel="stylesheet" href="assets/plugins/line-icons/line-icons.css">
+	<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/plugins/owl-carousel/owl-carousel/owl.carousel.css">
+	<link rel="stylesheet" href="assets/plugins/sky-forms-pro/skyforms/css/sky-forms.css">
+	<link rel="stylesheet" href="assets/plugins/sky-forms-pro/skyforms/custom/custom-sky-forms.css">
+	<!--[if lt IE 9]><link rel="stylesheet" href="assets/plugins/sky-forms-pro/skyforms/css/sky-forms-ie8.css"><![endif]-->
+
+	<!-- CSS Page Style -->
+	<link rel="stylesheet" href="assets/css/pages/page_contact.css">
+
+	<!-- CSS Theme -->
+	<link rel="stylesheet" href="assets/css/theme-colors/default.css" id="style_color">
+	<link rel="stylesheet" href="assets/css/theme-skins/dark.css">
+
+	<!-- CSS Customization -->
+	<link rel="stylesheet" href="assets/css/custom.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<!--=== Header ===-->
+		<div class="header">
+			<div class="container">
+				<!-- Logo -->
+				<a class="logo" href="index.html">
+					<img src="assets/img/logo-TCM-168x48.png" alt="Logo">
+				</a>
+				<!-- End Logo -->
+
+				<!-- Topbar -->
+				<div class="topbar">
+					<ul class="loginbar pull-right">
+						<li class="hoverSelector">
+							<i class="fa fa-globe"></i>
+							<a>Languages</a>
+							<ul class="languages hoverSelectorBlock">
+								<li class="active">
+									<a href="#">Romana <i class="fa fa-check"></i></a>
+								</li>
+								<li><a href="#">English</a></li>
+								<li><a href="#">Deutsch</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<!-- End Topbar -->
+
+				<!-- Toggle get grouped for better mobile display -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="fa fa-bars"></span>
+				</button>
+				<!-- End Toggle -->
+			</div><!--/end container-->
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse mega-menu navbar-responsive-collapse">
+				<div class="container">
+					<ul class="nav navbar-nav">
+						<!-- Home -->
+						<li ><a href="index.html" >Home</a></li>
+						<li ><a href="galerie.html" >Galerie</a></li>
+						<li ><a href="cazare.html" >Cazare</a></li>
+						<li ><a href="restaurant.html" >Restaurant</a></li>
+						<li ><a href="contact.html" >Contact</a></li>						
+					</ul>
+				</div><!--/end container-->
+			</div><!--/navbar-collapse-->
+		</div>
+		<!--=== End Header ===-->
+
+		<!-- Google Map -->
+		<div id="map" class="map"></div>
+		<!-- End Google Map -->
+
+		<!--=== Content Part ===-->
+		<div class="container content">
+			<div class="row margin-bottom-30">
+				<div class="col-md-9 mb-margin-bottom-30">
+					<div class="headline"><h2>SC SERVICII ALL INN SRL</h2></div>
+					<p><strong>Sediul social:</strong> Cluj Napoca, Str Nasaud Nr 4/7<br>
+					<strong>CUI:</strong> RO 16390457<br>
+					<strong>Nr. inreg. RC:</strong> J12/1644/2004<br>
+					</p>
+					<br />
+					<form action="assets/php/sky-forms-pro/demo-contacts-process.php" method="post" id="sky-form3" class="sky-form contact-style">
+						<fieldset class="no-padding">
+							<label>Nume <span class="color-red">*</span></label>
+							<div class="row sky-space-20">
+								<div class="col-md-7 col-md-offset-0">
+									<div>
+										<input type="text" name="name" id="name" class="form-control">
+									</div>
+								</div>
+							</div>
+
+							<label>Email <span class="color-red">*</span></label>
+							<div class="row sky-space-20">
+								<div class="col-md-7 col-md-offset-0">
+									<div>
+										<input type="text" name="email" id="email" class="form-control">
+									</div>
+								</div>
+							</div>
+
+							<label>Mesaj <span class="color-red">*</span></label>
+							<div class="row sky-space-20">
+								<div class="col-md-11 col-md-offset-0">
+									<div>
+										<textarea rows="8" name="message" id="message" class="form-control"></textarea>
+									</div>
+								</div>
+							</div>
+
+							<p><button type="submit" class="btn-u">Trimite Mesajul</button></p>
+						</fieldset>
+
+						<div class="message">
+							<i class="rounded-x fa fa-check"></i>
+							<p>Mesaj trimis cu succes. Multumim!</p>
+						</div>
+					</form>
+				</div><!--/col-md-9-->
+
+				<div class="col-md-3">
+					<!-- Contacts -->
+					<div class="headline"><h2>Contact</h2></div>
+					<ul class="list-unstyled who margin-bottom-30">
+						<li><a href="#"><i class="fa fa-home"></i>Aiud, jud. Alba, D.N. 1, km 105</a></li>
+						<li><a href="#"><i class="fa fa-envelope"></i> office@pensiunea-transilvania.ro</a></li>
+						<li><a href="#"><i class="fa fa-phone"></i>0756 162 055</a></li>
+						<li><a href="#"><i class="fa fa-globe"></i>http://www.pensiunea-transilvania.ro</a></li>
+					</ul>
+
+					<!-- Business Hours -->
+					<div class="headline"><h2>Receptie - rezervari</h2></div>
+					<ul class="list-unstyled who margin-bottom-30">
+						<li><a href="#"><i class="fa fa-phone"></i>0756 162 055</a></li>
+						<li><a href="#"><i class="fa fa-envelope"></i> rezervari@pensiunea-transilvania.ro</a></li>
+						<li><strong>Mihaela:</strong><a href="#"><i class="fa fa-phone"></i>+40 743 152 904</a></li>
+						<li><strong>Alin:</strong><a href="#"><i class="fa fa-phone"></i>+40 745 636 817</a></li>
+					</ul>
+
+					<!-- Why we are? -->
+					<div class="headline"><h2>Coordonate GPS</h2></div>
+					<p>Suntem de gasit la:</p>
+					<ul class="list-unstyled">
+						<li><i class="fa fa-check color-green"></i> Lat: N = 46,29152</li>
+						<li><i class="fa fa-check color-green"></i> Long: E = 23,70730</li>
+						<li><i class="fa fa-check color-green"></i> Alt:   248,2 m</li>
+					</ul>
+				</div><!--/col-md-3-->
+			</div><!--/row-->
+
+		</div><!--/container-->
+		<!--=== End Content Part ===-->
+
+		<!--=== Footer Version 1 ===-->
+		<div class="footer-v1">
+			<div class="footer">
+				<div class="container">
+					<div class="row">
+						<!-- About -->
+						<div class="col-md-6 md-margin-bottom-5">
+							<a href="index.html"><img id="logo-footer" class="footer-logo" src="assets/img/logo-TCM-168x48.png" alt=""></a>
+							<p>Ospitalitatea la ea acasa.</p>
+						</div><!--/col-md-6-->
+						<!-- End About -->
+
+						<!-- Address -->
+						<div class="col-md-6 md-margin-bottom-5">
+							<div class="headline"><h2>Adresa</h2></div>
+							<address class="md-margin-bottom-5">
+								Aiud, jud. Alba, D.N. 1, km 105<br />
+								Mobil: 0756 162 055 , Email: <a href="mailto:office@pensiunea-transilvania.ro" class="">office@pensiunea-transilvania.ro</a>
+							</address>
+						</div><!--/col-md-6-->
+						<!-- End Address -->
+					</div>
+				</div>
+			</div><!--/footer-->
+
+			<div class="copyright">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<p>
+								2017 &copy; Transilvania casa si masa.
+								<a href="restaurant.html">Restaurant</a> | <a href="cazare.html">Cazare</a> | <a href="contact.html">Contact</a>
+							</p>
+						</div>
+
+						<!-- Social Links -->
+						<div class="col-md-6">
+							<ul class="footer-socials list-inline">
+								<li>
+									<a href="#" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook">
+										<i class="fa fa-facebook"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Skype">
+										<i class="fa fa-skype"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Google Plus">
+										<i class="fa fa-google-plus"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Linkedin">
+										<i class="fa fa-linkedin"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<!-- End Social Links -->
+					</div>
+				</div>
+			</div><!--/copyright-->
+		</div>
+		<!--=== End Footer Version 1 ===-->
+	</div><!--/wrapepr-->
+
+	<!-- JS Global Compulsory -->
+	<script src="assets/plugins/jquery/jquery.min.js"></script>
+	<script src="assets/plugins/jquery/jquery-migrate.min.js"></script>
+	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+	<!-- JS Implementing Plugins -->
+	<script src="assets/plugins/back-to-top.js"></script>
+	<script src="assets/plugins/smoothScroll.js"></script>
+	<!--<script src="assets/plugins/owl-carousel/owl-carousel/owl.carousel.js"></script>-->
+	<script src="assets/plugins/sky-forms-pro/skyforms/js/jquery.form.min.js"></script>
+	<script src="assets/plugins/sky-forms-pro/skyforms/js/jquery.validate.min.js"></script>
+	<script src="//maps.googleapis.com/maps/api/js?key=AIzaSyCDSb3wORiw36c9kGhpSVqjkTYtJpVp4l4&callback=initMap" async defer></script>
+	<!-- JS Customization -->
+	<script src="assets/js/custom.js"></script>
+	<!-- JS Page Level -->
+	<script src="assets/js/app.js"></script>
+	<script src="assets/js/forms/contact.js"></script>
+	<script src="assets/js/plugins/google-map.js"></script>
+	<!--<script src="assets/js/plugins/owl-carousel.js"></script>-->
+	<!--<script src="assets/js/plugins/style-switcher.js"></script>-->
+	<script>
+		jQuery(document).ready(function() {
+			App.init();
+			ContactForm.initContactForm();
+			// OwlCarousel.initOwlCarousel();
+			// StyleSwitcher.initStyleSwitcher();
+		});
+
+		// Google Map
+		function initMap() {
+			GoogleMap.initGoogleMap();
+		}
+	</script>
+	<!--[if lt IE 9]>
+	<script src="assets/plugins/respond.js"></script>
+	<script src="assets/plugins/html5shiv.js"></script>
+	<script src="assets/plugins/placeholder-IE-fixes.js"></script>
+	<script src="assets/plugins/sky-forms-pro/skyforms/js/sky-forms-ie8.js"></script>
+	<![endif]-->
+	<!--[if lt IE 10]>
+	<script src="assets/plugins/sky-forms-pro/skyforms/js/jquery.placeholder.min.js"></script>
+	<![endif]-->
+</body>
+</html>
